@@ -1,0 +1,213 @@
+.profile-section .profile-top{
+    height:180px;
+    background:#fbede7;
+    margin:0px -15px;
+}
+.profile-section .profile-sidebar{
+    padding-left:2rem;
+}
+.profile-section .profile-sidebar .pro-pic img{
+    width:100%;
+}
+.profile-section .profile-sidebar .pro-pic{
+    padding:2px;
+    position:relative;
+    box-shadow:0px 2px 4px 0px #0004;
+    margin-top:-50%;
+}
+.profile-section .profile-sidebar .pro-pic .pic-add:hover{
+    text-decoration:none;
+}
+.profile-section .profile-sidebar .pro-pic .pic-add{
+    background:#a7a39e;
+    color:#fff;
+    text-align:center;
+    font-size:13px;
+    font-family:"Metropolis Semi Bold";
+    padding:.6rem 0px;
+    margin:-2px;
+    margin-top:0px;
+    display:block;
+}
+.profile-sidebar .main-ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+.profile-sidebar .main-ul li{
+    margin:10px 0px;
+}
+.profile-sidebar .main-ul a{
+    color:#202834;
+    font-size:14px;
+    font-family:'Metropolis Regular';
+    letter-spacing:0.5px;
+}
+.profile-sidebar .main-ul .icon{
+    color:#454544;
+    margin-right:10px;
+}
+.profile-section .txt-1{
+    font-family:"Metropolis Semi Bold";
+    font-size:40px;
+}
+.profile-section .pro-sec .par-flex{
+    display:flex;
+    flex-wrap:wrap;
+    padding-right:5rem;
+}
+.profile-section .other-sec,
+.profile-section .pro-sec{
+    margin-bottom:10px;
+}
+.profile-section .pro-name{
+    display:flex;
+    align-items:center;
+}
+.profile-section .pro-name .icon{
+    color:#ab5f66;
+    margin-left:15px;
+    font-size:20px;
+}
+.profile-section p,
+.profile-section .txt-2,
+.profile-section .txt-3{
+    font-family:"Metropolis Regular";
+    letter-spacing:0.5px;
+    font-size:20px;
+    margin-bottom:5px;
+}
+.profile-section p,
+.profile-section .txt-3{
+    font-size:14px;
+    color:#454544;
+}
+.profile-section .dot-icon{
+    margin:0px 5px;
+    background:#212529;
+    margin-bottom:3px;
+}
+.profile-section .media-details .media{
+    margin:20px 0px;
+}
+.profile-section .media-details .txt2,
+.profile-section .media-details .txt1{
+    font-family:"Metropolis Regular";
+    letter-spacing:0.5px;
+    font-size:14px;
+}
+.profile-section .media-details .txt2{
+    color:#454544;
+    font-size:13px;
+}
+.profile-section .media-details a{
+    font-size:13px;
+    font-family:"Metropolis Regular";
+    color:#30485e;
+    text-decoration:underline;
+}
+.profile-section .media-details .icon{
+    color:#454544;
+    font-size:16px;
+    margin-right:10px;
+}
+.profile-section .media-details .icon-right{
+    font-size:18px;
+    margin-left:5px;
+}
+.profile-section .media-details .media-right{
+    margin-left:auto;
+    display:flex;
+    align-items:center;
+}
+
+/* form fields */
+.profile-section input.form-control{
+    padding-top:1.2rem;
+    padding-bottom:1.2rem;
+}
+.profile-section .form-control[readonly]{
+    background:#eceae8;
+}
+.profile-section .form-control{
+    border-radius:5px;
+    padding-left:1rem;
+    padding-right:1rem;
+    font-size:15px;
+}
+/* button */
+.profile-section .btn.theme-btn{
+    font-size:14px;
+    padding:.5rem 1.3rem;
+}
+
+/* calendar start */
+/* react calendar */
+.rb-cal .calendar-menu{
+    position:absolute;
+    top:100%;
+    margin-top:3px;
+    padding:0px;
+    border:0px solid;
+    box-shadow:0px 2px 4px 0px #0004;
+    z-index:10;
+    border-radius:5px;
+}
+.rb-cal .react-calendar{
+    border:0px solid;
+    background:#eceae8;
+    border-radius:5px;
+    font-family:"Metropolis Bold";
+}
+.rb-cal .react-calendar__tile--now{
+    background:transparent;
+}
+.rb-cal .react-calendar__tile--active:enabled:hover,
+.rb-cal .react-calendar__tile--active:enabled:focus,
+.rb-cal .react-calendar__tile--active{
+    background:#30485e !important;
+}
+.rb-cal .react-calendar__tile--active abbr{
+    color:#fff !important;
+}
+.rb-cal .react-calendar__month-view__days__day,
+.rb-cal .react-calendar__month-view__days__day--weekend{
+    color:#30485e;
+}
+.rb-cal .react-calendar__tile--now:enabled:focus,
+.rb-cal .react-calendar__tile--now:enabled:hover,
+.rb-cal .react-calendar__month-view__days__day:hover,
+.rb-cal .react-calendar__month-view__days__day--weekend:hover{
+    background:#eceae8;
+}
+.rb-cal .react-calendar__month-view__days__day:hover abbr,
+.rb-cal .react-calendar__month-view__days__day--weekend:hover abbr
+.rb-cal .react-calendar__month-view__days__day:focus abbr,
+.rb-cal .react-calendar__month-view__days__day--weekend:focus abbr{
+    color:#454544;
+}
+.rb-cal .react-calendar__month-view__days__day--neighboringMonth{
+    color:#6c6a66;
+}
+.rb-cal .react-calendar__navigation .react-calendar__navigation__arrow{
+    visibility:hidden;
+}
+.rb-cal .react-calendar__navigation .react-calendar__navigation__arrow:after{
+    font-family:"FontAwesome";
+    font-size:16px;
+    visibility:visible;
+    padding:5px;
+}
+.rb-cal .react-calendar__navigation .react-calendar__navigation__prev2-button:after{
+    content:"\f100";
+}
+.rb-cal .react-calendar__navigation .react-calendar__navigation__prev-button:after{
+    content:"\f053";
+}
+.rb-cal .react-calendar__navigation .react-calendar__navigation__next-button:after{
+    content:"\f054";
+}
+.rb-cal .react-calendar__navigation .react-calendar__navigation__next2-button:after{
+    content:"\f101";
+}
+/* calendar end */

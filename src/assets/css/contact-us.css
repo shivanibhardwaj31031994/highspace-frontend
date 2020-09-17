@@ -1,0 +1,60 @@
+.contact-sections{
+    padding:4rem;
+}
+.contact-sections .img-portion{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0px;
+	top:0px;
+	overflow:hidden;
+	z-index:-1;
+}
+.contact-sections .img-portion img{
+	width:100%;
+	min-height:100%;
+}
+.contact-sections .theme-slider .item{
+    background:transparent;
+    text-align:center;
+}
+.contact-sections .theme-slider .item .item-title{
+    font-family:"Metropolis Semi Bold";
+    font-size:45px;
+    margin-bottom:15px;
+}
+.contact-sections .theme-slider .item h6{
+    color:#202834;
+}
+.contact-sections.header-por{
+    margin-top:0px;
+    min-height:450px;
+    box-shadow:inset 0px 120px 120px 120px #ed9f88;
+}
+
+/* contact details start */
+.contact-details{
+    background:#fbede7;
+}
+.contact-details .c-icon{
+    font-size:35px;
+    color:#30485e;
+    margin-bottom:1.5rem;
+}
+.contact-details .c-title{
+    margin-bottom:1rem;
+    font-size:30px;
+    font-family:"Metropolis Semi Bold";
+}
+.contact-details .c-des{
+    font-size:15px;
+}
+.contact-details .c-des a{
+    text-decoration:underline;
+    color:#30485e;
+}
+/* contact details end */
+
+.com-sections.blog-section{
+    background:#f0f0ef;
+}

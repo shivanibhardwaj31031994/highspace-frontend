@@ -1,0 +1,399 @@
+.vendor-section .ltr-portion{
+    background:#e3e1de;
+    border:1px solid #e3e1de;
+    margin-left:-15px;
+    margin-right:15px;
+}
+.vendor-section .ltr-portion .ltr-title{
+    font-size:20px;
+	padding:1rem;
+    text-align:center;
+    font-family:"Metropolis Regular";
+    letter-spacing:1px;
+}
+.vendor-section .ltr-portion .ltr-pic{
+    text-align:center;
+    padding:0px 3rem;
+    margin-top:2.5rem;
+    margin-bottom:0.5rem;
+}
+.vendor-section .ltr-portion .ltr-pic img{
+    width:150px;
+    border-radius:5px;
+}
+.vendor-section .ltr-portion .main-ul{
+    list-style:none;
+    margin:2rem -1px;
+    padding:0px;
+}
+.vendor-section .ltr-portion .main-ul li{
+    padding:10px 0px;
+    padding-right:5px;
+    padding-left:2rem;
+    border-left:8px solid transparent;
+    font-size:12px;
+    font-family:"Metropolis Medium";
+    letter-spacing:0.5px;
+    position:relative;
+}
+.vendor-section .ltr-portion .main-ul a{
+    display:flex;
+    align-items:center;
+    color:#202834;
+    z-index:1;
+    position:relative;
+}
+.vendor-section .ltr-portion .main-ul a:hover{
+    text-decoration:none;
+}
+.vendor-section .ltr-portion .main-ul .active{
+    border-left-color:#ed9f88;
+    background:#fff;
+    margin-bottom:10px;
+}
+.vendor-section .ltr-portion .main-ul .active::after,
+.vendor-section .ltr-portion .main-ul .active::before{
+    content:'';
+    position:absolute;
+    right:-1px;
+    bottom:-20px;
+    z-index:0;
+    height:20px;
+    width:20px;
+    border-top-right-radius:15px;
+    box-shadow:0px 0px 0px #fff, 0 -10px 1px #fff;
+}
+.vendor-section .ltr-portion .main-ul .active::after{
+    top:-20px;
+    bottom:auto;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:15px;
+    box-shadow:0px 0px 0px #fff, 0 10px 0px #fff;
+}
+.vendor-section .ltr-portion .main-ul .active .icon{
+    color:#ed9f88;
+}
+.vendor-section .ltr-portion .main-ul .icon{
+    font-size:30px;
+    margin-right:0.7rem;
+    width:30px;
+    overflow:hidden;
+}
+.vendor-form .form-title{
+    color:#202834;
+}
+.vendor-form{
+    margin-bottom:3rem;
+}
+
+/* dashboard page */
+.vendor-section .vendor-box{
+    background:#eceae8;
+    border-radius:5px;
+    padding:10px;
+    position:relative;
+    margin-bottom:15px;
+}
+.vendor-section .vendor-box .img-box{
+    overflow:hidden;
+    position:relative;
+    border-radius:5px;
+}
+.vendor-section .vendor-box .img-box img{
+    position:absolute;
+    height:100%;
+    min-width:100%;
+}
+.vendor-section .vendor-box .card{
+    background:transparent;
+    border:0px solid;
+    padding-left:10px;
+    letter-spacing:0.5px;
+    font-family:"Metropolis Light";
+    height:100%;
+}
+.vendor-section .vendor-box .card-body{
+    padding:0px;
+    height:100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.vendor-section .vendor-box .rating{
+    font-size:12px;
+}
+.vendor-section .vendor-box .rating .icon{
+    color:#ff4242;
+}
+.vendor-section .vendor-box .small-text{
+    font-family:"Metropolis Medium";
+    font-size:10px;
+    letter-spacing:1px;
+}
+.vendor-section .vendor-box .price sup{
+    margin-left:10px;
+}
+
+/* space listing */
+.vendor-section .space-listing{
+    height:calc(100% - 30px);
+    width:calc(100% - 10px);
+    left:10px;
+    top:15px;
+    overflow:auto;
+    position:absolute;
+    padding:0px 10px;
+}
+.vendor-section .space-listing .custom-control.custom-radio{
+    margin-top:0px;
+    margin-bottom:0.25rem;
+    font-family:"Metropolis Thin";
+    letter-spacing:0.5px;
+    color:#6c6a66;
+    font-size:14px;
+}
+.vendor-section .space-listing .custom-control-input ~ .custom-control-label{
+    width:100%;
+    cursor:pointer;
+    line-height:26px;
+}
+.vendor-section .space-listing .custom-control-label:hover,
+.vendor-section .space-listing .custom-control-input:checked ~ .custom-control-label{
+    font-family:"Metropolis Regular";
+    color:#212529;
+}
+.vendor-section .sec-title{
+    font-family:"Metropolis Semi Bold";
+    margin-top:3rem;
+    font-size:14px;
+    letter-spacing:0.5px;
+    margin-bottom:10px;
+}
+
+/* vendor box style 1 */
+.vendor-section .vendor-box.style-1{
+    padding:15px;
+    border-radius:10px;
+}
+.vendor-section .media-box img{
+    width:100px;
+    border-radius:5px;
+    margin-right:10px;
+}
+.vendor-section .media-box .media-body{
+    align-self:stretch;
+    display:flex;
+    flex-wrap:wrap;
+}
+.vendor-section .media-box .txt-1{
+    font-family:"Metropolis Semi Bold";
+    font-size:11px;
+    line-height:normal;
+    letter-spacing:0.5px;
+}
+.vendor-section .media-box .txt-2{
+    font-size:10px;
+    color:#6c6a66;
+}
+.vendor-section .media-box .link{
+    font-size:11px;
+    color:#454544;
+    text-decoration:underline;
+}
+.vendor-section .media-box .link .icon{
+    font-size:15px;
+    margin-left:5px;
+}
+.vendor-section .media-box .media-rating i{
+    font-size:13px;
+    margin-right:2px;
+    color:#454544;
+}
+.vendor-section .detail-box{
+    background:#fff;
+    border-radius:5px;
+    padding:5px 10px;
+}
+.vendor-section .detail-box .d-title{
+    margin-bottom:5px;
+}
+.vendor-section .detail-box p{
+    font-size:10px;
+    font-family:"Metropolis Extra Light Italic";
+    color:#6e7277;
+    line-height:normal;
+    margin-bottom:5px;
+}
+
+/* react calendar */
+.vendor-box .react-calendar{
+    border:0px solid;
+    background:transparent;
+    font-family:"Metropolis Bold";
+}
+.vendor-box .react-calendar__tile--now,
+.vendor-box .react-calendar__tile--active{
+    background:transparent;
+}
+.vendor-box .react-calendar__month-view__days__day,
+.vendor-box .react-calendar__month-view__days__day--weekend{
+    color:#30485e;
+}
+.vendor-box .react-calendar__tile--now:enabled:focus,
+.vendor-box .react-calendar__tile--now:enabled:hover,
+.vendor-box .react-calendar__tile--active:enabled:hover,
+.vendor-box .react-calendar__tile--active:enabled:focus,
+.vendor-box .react-calendar__month-view__days__day:hover,
+.vendor-box .react-calendar__month-view__days__day--weekend:hover{
+    background:#eceae8;
+}
+.vendor-box .react-calendar__month-view__days__day:hover abbr,
+.vendor-box .react-calendar__month-view__days__day--weekend:hover abbr
+.vendor-box .react-calendar__month-view__days__day:focus abbr,
+.vendor-box .react-calendar__month-view__days__day--weekend:focus abbr{
+    color:#454544;
+}
+.vendor-box .react-calendar__month-view__days__day--neighboringMonth{
+    color:#6c6a66;
+}
+.vendor-box .react-calendar__navigation .react-calendar__navigation__arrow{
+    visibility:hidden;
+}
+.vendor-box .react-calendar__navigation .react-calendar__navigation__arrow:after{
+    font-family:"FontAwesome";
+    font-size:16px;
+    visibility:visible;
+    padding:5px;
+}
+.vendor-box .react-calendar__navigation .react-calendar__navigation__prev2-button:after{
+    content:"\f100";
+}
+.vendor-box .react-calendar__navigation .react-calendar__navigation__prev-button:after{
+    content:"\f053";
+}
+.vendor-box .react-calendar__navigation .react-calendar__navigation__next-button:after{
+    content:"\f054";
+}
+.vendor-box .react-calendar__navigation .react-calendar__navigation__next2-button:after{
+    content:"\f101";
+}
+.vendor-box .react-calendar .react-calendar__tile{
+    border:1px solid transparent;
+}
+.vendor-box .react-calendar .block-day.react-calendar__tile{
+    border-color:#ff4242;
+}
+.vendor-box .react-calendar .block-fullday.react-calendar__tile:hover abbr,
+.vendor-box .react-calendar .block-fullday.react-calendar__tile{
+    background:#ff4242 !important;
+    color:#fff;
+}
+
+/* react calendar blocking mode start*/
+.vendor-box.block-mode{
+    background:#30485e;
+}
+.vendor-box.block-mode .react-calendar__navigation__arrow,
+.vendor-box.block-mode .react-calendar__navigation__label__labelText,
+.vendor-box.block-mode .react-calendar__month-view__weekdays__weekday abbr,
+.vendor-box.block-mode .sec-title,
+.vendor-box.block-mode .react-calendar__month-view__days__day,
+.vendor-box.block-mode .react-calendar__month-view__days__day--weekend{
+    color:#fff;
+}
+.vendor-box.block-mode .btn.style-1{
+    background:#eceae8;
+    color:#6c6a66;
+}
+.vendor-box.block-mode .btn.style-1.btn-1{
+    background:#a7a39e;
+    color:#fff;
+}
+.vendor-box.block-mode .btn.style-1.btn-2{
+    background:#fff;
+    color:#30485e;
+}
+.vendor-box.block-mode .react-calendar__month-view__days__day--neighboringMonth{
+    color:#e3e1de;
+}
+.vendor-box.block-mode .form-control.is-invalid{
+    background:#fff !important;
+    box-shadow:0px 0px 3px 2px #f00 !important;
+}
+.vendor-box.block-mode .fa-loader{
+    color:#fff;
+}
+.vendor-box.block-mode .form-control{
+    border-radius:.25rem;
+    border:0px solid;
+    background:#fff;
+}
+.vendor-box.block-mode .custom-checkbox{
+    margin-top:10px;
+    color:#fff;
+    cursor:pointer;
+}
+.vendor-box.block-mode .custom-checkbox label{
+    cursor:pointer;
+    padding-top:3px;
+    padding-left:0px;
+    font-size:13px;
+    color:#fff;
+}
+.vendor-box.block-mode .custom-control-input:checked ~ .custom-control-label::after{
+    background:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2330485e' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+    margin-top:2px;
+    margin-left:2px;
+    height:calc(1rem - 4px);
+    width:calc(1rem - 4px);
+    cursor:pointer;
+}
+.vendor-box.block-mode .custom-control-input ~ .custom-control-label::before{
+    cursor:pointer;
+    background:#fff;
+    border-radius:5px;
+    border:0px solid;
+}
+.vendor-box.block-mode .time-input.input-group .form-control{
+    padding-left:6px;
+    padding-right:2px;
+    border-radius:.25rem 0px 0px .25rem;
+}
+.vendor-box.block-mode .time-input.input-group .input-group-append{
+    padding:5px 2px;
+    padding-right:6px;
+    border-radius:0px .25rem .25rem 0px;
+    background:#fff;
+}
+.vendor-box.block-mode .time-input .input-group-append select{
+    background:#eceae8;
+    border:0px solid;
+    border-radius:3px;
+}
+/* react calendar blocking mode end*/
+/* react calendar end*/
+
+/* booking-box */
+.vendor-section .booking-box{
+    background:#fff;
+    border-radius:5px;
+    padding:10px 15px;
+    margin-bottom:10px;
+}
+.vendor-section .booking-box .txt-1{
+    font-family:"Metropolis Semi Bold";
+    font-size:12px;
+    line-height:normal;
+    letter-spacing:0.5px;
+}
+.vendor-section .booking-box .txt-2{
+    font-family:"Metropolis Semi Bold";
+    letter-spacing:0.5px;
+    font-size:12px;
+    color:#6c6a66;
+}
+.vendor-section .booking-box .link{
+    background:#e3e1de;
+    border-radius:5px;
+    padding:0.7rem 1.5rem;
+    color:#212529;
+}

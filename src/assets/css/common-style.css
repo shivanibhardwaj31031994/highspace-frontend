@@ -1,0 +1,346 @@
+body{
+    font-family:"Metropolis Regular";
+	letter-spacing:0.5px;
+	font-size:14px;
+}
+body.popup-visible{
+	overflow:hidden;
+}
+
+/* common style start */
+a,button{
+	outline:0 !important;
+}
+.loader{
+	position:relative;
+}
+.loader:after{
+	content:'\f110';
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:100%;
+	width:100%;
+	font-size:50px;
+	background:#000a;
+	font-family:fontAwesome;
+}
+.sp-1{
+	margin:1rem 0px;
+}
+.sp-2{
+	margin:2.5rem 0px;
+}
+.theme-link i{
+	font-size:10px;
+	margin-left:3px;
+}
+.theme-link{
+	font-size:16px;
+	color:#202834;
+	border-bottom:1px solid #202834;
+}
+.dot-icon{
+	background:#5b5a55;
+	height:4px;
+	width:4px;
+	margin:0px 2px;
+	margin-top:-6px;
+	border-radius:50%;
+	display:inline-block;
+}
+/* common style end */
+/* header start */
+header .navbar-dark{
+	background:#202834;
+}
+header .navbar{
+	padding:1rem 2rem;
+	box-shadow:0px 2px 4px #ddd;
+}
+header .navbar .nav-btn-1{
+	margin:0px;
+	color:#fff;
+	box-shadow:none;
+}
+header .navbar .navbar-brand{
+	font-family:"Metropolis Bold";
+	margin-left:1rem;
+	text-transform:uppercase;
+	color:#202834;
+}
+header .navbar.navbar-dark .navbar-brand{
+	color:#fff;
+}
+header .navbar .navbar-nav .nav-link{
+	margin:0px 20px;
+	font-size:15px;
+	display:inline-flex;
+	color:#5b5a55;
+	cursor:pointer;
+}
+header .navbar .navbar-nav .nav-btn{
+	box-shadow:0px 3px 4px #ddd;
+	border-radius:20px;
+	padding-left:13px;
+	padding-right:13px;
+}
+header .navbar.navbar-dark .navbar-nav .nav-btn{
+	box-shadow:none;
+	background:#30485e;
+}
+header .navbar .navbar-nav .nav-btn i{
+	color:#e3e1de;
+}
+header .navbar.navbar-dark .navbar-nav .nav-link{
+	color:#fbfbfb;
+}
+header .navbar .navbar-nav .nav-link i{
+	font-size:25px;
+	margin-right:10px;
+}
+header .navbar .dropdown .dropdown-toggle{
+	display:flex;
+	align-items:center;
+	background:#30485e;
+}
+header .navbar .dropdown .dropdown-toggle i{
+	color:#fff;
+}
+header .navbar .dropdown .dropdown-toggle:after{
+	color:#fff;
+	border-width:0.4rem;
+	vertical-align:middle;
+}
+header .navbar .dropdown .dropdown-menu{
+	top:calc(100% + 15px);
+	right:20px;
+	padding:7px 0px;
+	border:0px solid;
+	font-size:14px;
+	box-shadow:0px 2px 8px #0005;
+}
+.navbar .dropdown-menu .dropdown-item,
+.navbar .dropdown-menu .dropdown-header{
+	padding:8px 15px;
+}
+.navbar .dropdown-menu .dropdown-header{
+	border-bottom:1px solid #e3e1de;
+	padding-bottom:15px;
+	margin-bottom:10px;
+}
+.navbar .dropdown-menu .dropdown-divider{
+	font-family:"Metropolis Semi Bold";
+	height:auto;
+	padding:5px 15px;
+	text-transform:uppercase;
+	background:#eceae8;
+}
+.navbar .dropdown-menu .pro-pic{
+	width:80px;
+	margin-right:20px;
+}
+.navbar .dropdown-menu .dropdown-media{
+	align-items:center;
+}
+.navbar .dropdown-menu .pro-type,
+.navbar .dropdown-menu .txt-2,
+.navbar .dropdown-menu .txt-1{
+    font-family:"Metropolis Semi Bold";
+	font-size:13px;
+	margin-bottom:1px;
+    line-height:normal;
+	letter-spacing:0.5px;
+	color:#212529;
+}
+.navbar .dropdown-menu .txt-2{
+	font-family:"Metropolis Regular";
+	color:#6c6a66;
+}
+.navbar .dropdown-menu .pro-type{
+    font-family:"Metropolis Regular";
+	border:1px solid #e3e1de;
+	padding:5px 15px;
+	border-radius:15px;
+	color:#454544;
+}
+.navbar .dropdown-menu .dropdown-item:focus{
+	background:#f8f9fa;
+}
+.navbar .dropdown-menu .dropdown-item{
+	color:#454544;
+	cursor:pointer;
+	margin-bottom:1px;
+    line-height:normal;
+	
+}
+.navbar .dropdown-menu .dropdown-item i{
+	margin-right:10px;
+}
+/* header end */
+/* footer start */
+footer{
+	background:#202834;
+	color:#fff;
+	padding:4rem;
+}
+footer .footer-ul li a,
+footer .footer-ul{
+	color:#e3e1de;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	font-weight:normal;
+	font-size:12px;
+}
+footer .footer-ul li{
+	margin:8px 0px;
+}
+footer .footer-social-ul li.f-title,
+footer .footer-ul li.f-title{
+	color:#fff;
+	font-weight:normal;
+	font-size:18px;
+}
+footer .footer-app-ul,
+footer .footer-social-ul{
+	display:flex;
+	margin:0px;
+	margin-top:20px;
+	padding:25px 0px;
+	border-top:1px solid #e3e1de;
+	border-bottom:1px solid #e3e1de;
+}
+footer .footer-social-ul li{
+	width:100%;
+	list-style:none;
+	font-size:12px;
+}
+footer .footer-social-ul li a i{
+	font-size:20px;
+	margin-right:3px;
+	vertical-align:bottom;
+}
+footer .footer-social-ul li a{
+	color:#e3e1de;
+}
+footer .footer-app-ul{
+	border:0px solid;
+	display:inline-flex;
+	align-items:center;
+}
+footer .footer-app-ul li.f-title{
+	font-size:14px;
+	color:#e3e1de;
+}
+footer .footer-app-ul li{
+	list-style:none;
+	width:200px;
+}
+footer .footer-app-ul li img{
+	max-width:110px;
+}
+/* footer end */
+
+/* google search start */
+.google-places-autocomplete{
+	position:relative;
+}
+.google-places-autocomplete__suggestions-container{
+	position:absolute;
+	top:100%;
+	width:100%;
+	z-index:1;
+	background:#fff;
+	color:#30485e;
+	box-shadow:0 2px 4px rgba(0,0,0,0.2);
+	border-radius:0 0 8px 8px;
+	padding:5px 0px;
+	font-size:13px;
+}
+.google-places-autocomplete__suggestions-container .google-places-autocomplete__suggestions,
+.google-places-autocomplete__suggestions-container .google-places-autocomplete__suggestion{
+	padding:7px 10px;
+	cursor:pointer;
+}
+.google-places-autocomplete__suggestions-container .google-places-autocomplete__suggestion:hover{
+	background:#f0f0f0;
+}
+/* google search end */
+
+/* blog start */
+.com-sections{
+	padding:4rem;
+	margin:4rem 0px;
+}
+.com-sections .sec-title{
+	font-family:"Metropolis Bold";
+	font-size:35px;
+	margin-bottom:3rem;
+}
+.sec-subtitle{
+	font-family:"Metropolis Regular";
+	font-size:18px;
+	margin-top:1rem;
+}
+.sec-subtitle .link{
+	font-family:"Metropolis Semi Bold";
+	color:#30485e;
+	text-decoration:underline;
+}
+.blog-section .blog-box{
+	box-shadow:0px 0px 5px #ddd;
+}
+.blog-section .blog-box .card-body{
+	padding:10px;
+}
+.blog-section .blog-box .card-body .card-cat{
+	color:#5b5a55;
+	margin-bottom:10px;
+	font-size:13px;
+}
+.blog-section .blog-box .card-body .card-title{
+	margin-bottom:2.5rem;
+	font-weight:bold;
+	font-family:"Metropolis Semi Bold";
+}
+.blog-section .blog-box .card-body .card-bottom{
+	display:flex;
+	width:100%;
+}
+.blog-section .blog-box .card-body .card-bottom .time{
+	color:#5b5a55;
+	font-size:13px;
+}
+.blog-section .blog-box .card-body .card-bottom a{
+	font-size:13px;
+	padding:0px;
+	background:transparent;
+	border:0px solid;
+	margin-left:auto;
+	font-weight:bold;
+	color:#30485e;
+}
+/* blog end */
+
+/* join section start */
+.join-sec{
+    background:#202834;
+    color:#fff;
+    text-align:center;
+    margin-bottom:3rem;
+}
+.join-sec .j-title{
+    font-size:25px;
+    margin-bottom:2rem;
+    font-family:"Metropolis Semi Bold";
+}
+.join-sec .j-btn{
+    font-family:"Metropolis Semi Bold";
+    background:#fff;
+    color:#202834;
+    letter-spacing:1.5px;
+    padding:.8rem 2.5rem;
+    text-transform:uppercase;
+}
+/* join section end */

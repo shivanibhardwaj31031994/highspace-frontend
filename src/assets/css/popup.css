@@ -1,0 +1,43 @@
+.theme-popup{
+    position:fixed;
+    height:100%;
+    width:100%;
+    left:0px;
+    top:0px;
+    background:#0004;
+    z-index:10;
+    overflow:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.theme-popup .popup-modal{
+    width:500px;
+    background:#fff;
+    padding:2rem;
+    border-radius:5px;
+}
+.theme-popup .popup-modal .modal-header{
+    background:#30485e;
+    border-radius:5px;
+    color:#fff;
+    font-family:"Metropolis Semi Bold";
+    font-size:25px;
+    padding:3rem 1.5rem;
+    justify-content:center;
+    line-height:normal;
+}
+.theme-popup .popup-modal .modal-body{
+    font-size:15px;
+    padding:1.5rem 0rem;
+    margin-bottom:1rem;
+    line-height:normal;
+}
+.theme-popup .popup-modal .modal-footer{
+    border:0px solid;
+    padding:0px;
+}
+.theme-popup .popup-modal .btn{
+    padding-top:0.7rem;
+    padding-bottom:0.7rem;
+}
