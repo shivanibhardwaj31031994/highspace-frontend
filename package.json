@@ -53,6 +53,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy1": "http://15.207.64.105:9000",
+  "proxy": "http://15.207.64.105:9000",
   "proxy": "http://localhost:9000"
 }
